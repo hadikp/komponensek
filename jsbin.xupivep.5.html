@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by hadikp (http://jsbin.com/xupivep/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="veboldal dobozokból">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body {
+  background-color: #333;
+}
+
+.container {
+  width: 400px;
+  height: calc(100vh - 40px);
+  margin: 20px auto;
+  background-color: #fff;
+  position: relative;
+}
+
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+  left: 0;
+  right: 0;
+  height: 100px;
+}
+
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  top: 100px;
+  left: 0;
+  width: 70%;
+  height: 500px;
+}
+
+#box-03 {
+  background-color: hsla(332, 69%, 51%, .85);
+  top: 100px;
+  right: 0;
+  width: 30%;
+  height: 400px;
+}
+
+#box-04 {
+  background-color: hsla(279, 60%, 44%, .85);
+  bottom: -10px;
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="box-01" class="box">header</div>
+  <div id="box-02" class="box">main</div>
+  <div id="box-03" class="box">aside</div>
+  <div id="box-04" class="box">footer</div>
+</div>
+</body>
+</html>
