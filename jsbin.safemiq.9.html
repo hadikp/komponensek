@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by hadikp (http://jsbin.com/safemiq/9/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="gombok pozícionálása">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body {
+background: rgba(240,240,240,1);
+}
+
+.btn-gomb {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: .6rem 1rem;
+  color: #000;
+}
+/* Additional styles for "Default" */
+.btn-gomb {
+  color: #0645ad;
+  background:   linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(208,224,235,1) 100%);
+  border-left: .8px solid rgba(70, 165, 238, 0.4);
+  border-right: .8px solid rgba(70, 165, 238, 0.4);
+  border-bottom:.1rem solid rgba(70, 165, 238, 0.4); 
+ 
+  
+}
+
+.btn-gomb:hover {
+  color: #fff;
+  background-color: #000;
+  transition: background-color .15s ease-in-out
+}
+
+/* ==== KERESŐDOBOZ ==== */ 
+
+input[type=text] {
+    width: 11rem;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  float: right;
+ 
+  
+  
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+
+}
+.jobb  {
+   float: right;
+}
+
+
+.bal  {
+   float: left;
+}
+
+</style>
+</head>
+<body>
+<a href="#" class="btn-gomb bal">Talk</a>
+<a href="#" class="btn-gomb">Edit</a>
+  <input type="text" name="search" placeholder="Search Wikipedia">
+  <a href="#" class="btn-gomb jobb">View history</a>
+  <a href="#" class="btn-gomb jobb">Next2</a>
+  
+ 
+</body>
+</html>
